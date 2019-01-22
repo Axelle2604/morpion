@@ -1,0 +1,44 @@
+.morpion {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.txtPlayer {
+  padding: 10px;
+  width: 286px;
+  margin-bottom: 10px;
+}
+
+.txtPlayerRed {
+  background-color: #e74c3c;
+}
+
+.txtPlayerBlue {
+  background-color: #3498db;
+}
+
+.txtEndGame {
+  padding: 10px;
+  width: 286px;
+  margin-top: 10px;
+}
+
+.txtEndGame.txtPlayerRed {
+  background-color: #e74c3c;
+}
+
+.txtEndGame.txtPlayerBlue {
+  background-color: #3498db;
+}
+
+.txtDraw {
+  padding: 10px;
+  width: 286px;
+  margin-top: 10px;
+}
